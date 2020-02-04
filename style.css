@@ -1,17 +1,28 @@
-div{
-	text-align: center;
-	align-content: center;
+nav{
+	background-color: red;
+	position: relative;
+	margin: 0px;
+	z-index: 1;
+	margin: 20px;
+}
+body{
 	background-color: green;
-}
-form{
-	background-color: #FFFD32FF;
-	display: inline;
-	border: 1px black solid;
-	padding: 1% 20%;
+	padding: 0px;
+	position: relative;
+	z-index: -1;
+	margin: 0px;
 
-	
-	
+
 }
-label{
-	padding: 0% 2%;
+ul{
+	background-color: yellow;
+	z-index: 0;
+	position: relative;
+	margin: 0px;
+
+	left:5px;
+}
+div{
+	margin: 19px;
+
 }
